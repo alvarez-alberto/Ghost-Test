@@ -1,5 +1,6 @@
 const playwright = require('playwright');
-const url = 'http://localhost:2368/ghost';
+const { urlHost, userName, password } = require('./config.cjs');
+
 
 //Función flecha asíncrona
 (async () => {
@@ -14,46 +15,46 @@ const url = 'http://localhost:2368/ghost';
     const page = await context.newPage();
     
     //Abrir la URL a probar en la página y cargar el proyecto en una SPA
-    await page.goto(url);
+    await page.goto(urlHost);
     await new Promise(r => setTimeout(r, 7000));
     console.log('1. Incio');
-	await page.screenshot({path: './resultado/1. Inicio.png'});
+	await page.screenshot({path: './resultado/tag/CrearTagPositivo/1. Inicio.png'});
     
 
-	await page.type('input[name="identification"]', 'a.alvarezh2@uniandes.edu.co');
-    await page.type('input[name="password"]', '12345abcde');
+	await page.type('input[name="identification"]', userName);
+    await page.type('input[name="password"]', password);
 	
 	console.log('2.Ingresar datos para autenticarse')
-	await page.screenshot({path:'./resultado/2.Datos_autenticarse.png'});
+	await page.screenshot({path:'./resultado/tag/CrearTagPositivo/2.Datos_Autenticacion.png'});
     await page.locator('button', { hasText: 'Sign in →' }).click();
 	
 	await new Promise(r => setTimeout(r, 7000));
 	console.log('3. Autenticado con Exito');
-    await page.screenshot({path:'./resultado/3.Autenticacion_exitosa.png'});
+    await page.screenshot({path:'./resultado/tag/CrearTagPositivo/3.Autenticacion_Exitosa.png'});
 	
 
 	await page.click('text=Tags');
 	console.log('4. Ingresar a opción de menú Tags');
 	await new Promise(r => setTimeout(r, 2000));
-	await page.screenshot({path:'./resultado/4.Ingreso_Tags.png'});
+	await page.screenshot({path:'./resultado/tag/CrearTagPositivo/4.Ingreso_Tags.png'});
 	
 	await page.click('text=New tag');
 	console.log('5. Nuevo Tag');
 	await new Promise(r => setTimeout(r, 2000));
-	await page.screenshot({path:'./resultado/5.Nuevo_Tag.png'});
+	await page.screenshot({path:'./resultado/tag/CrearTagPositivo/5.Nuevo_Tag.png'});
 	
 	
 	await page.type('input[id="tag-name"]', '');
 	await page.click('text=Save');
 	console.log('6. Ingresar Nuevo Tag');
 	await new Promise(r => setTimeout(r, 2000));
-	await page.screenshot({path:'./resultado/6.Datos_Nuevo_Tag.png'});
+	await page.screenshot({path:'./resultado/tag/CrearTagPositivo/6.Datos_Nuevo_Tag.png'});
 	
 	
 	await page.locator('button', { hasText: 'Retry' }).click();
 	console.log('7. Valida si existe el botón Retry');
 	await new Promise(r => setTimeout(r, 2000));
-	await page.screenshot({path:'./resultado/7.Retry.png'});
+	await page.screenshot({path:'./resultado/tag/CrearTagPositivo/7.Retry.png'});
 	
 	
 	
