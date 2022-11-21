@@ -7,10 +7,12 @@ Los escenarios de prueba y las pruebas VRT se encuentran en el repo https://gith
 Nota: Todas las rutas mencioonadas se indican a partir del directorio donde se descargó  el repo
 
 **1. Pruebas Kraken**
+
    **Ghost v3.42**
   - Configuración: En el archivo Ghost-test-kraken\Ghost-3.42\properties.json se define las propiedades usuario, password y url del ambiente donde se ejecutaran los escenarios de prueba
   - Escenarios de pruebas : Se encuentran en la ruta Ghost-Test\Ghost-test-kraken\Ghost-3.42\features. Nota: Para ejecutar el escenario solo debe existir un archivo .feature en ese directorio
   - Screenshost: Se encuentran en la ruta Ghost-3.42\screenshot\ donde podra encontrar una carpeta por módulo que reune varios escenarios de prueba
+  
   **Ghost v5.18**
   - Configuración: En el archivo Ghost-test-kraken\Ghost-5.18\properties.json se define las propiedades usuario, password y url del ambiente donde se ejecutaran los escenarios de prueba
   - Escenarios de pruebas : Se encuentran en la ruta Ghost-Test\Ghost-test-kraken\Ghost-5.18\features 
@@ -18,6 +20,7 @@ Nota: Todas las rutas mencioonadas se indican a partir del directorio donde se d
   
   
 **2. Pruebas Playwright**
+  
   **Ghost v3.42**
   - Configuración: En el archivo Ghost-test-Playwright\Ghost-3.42\config.cjs se define las propiedades usuario, password y url del ambiente donde se ejecutaran los escenarios de prueba
   - Escenarios de pruebas : Se encuentran en la ruta Ghost-Test\Ghost-test-Playwright\Ghost-3.42\ 
@@ -30,6 +33,7 @@ Nota: Todas las rutas mencioonadas se indican a partir del directorio donde se d
   
 
 **3. Pruebas VRT**
+
 **3.1 Tags**
 - En una consola de comando ubicarse en la ruta Ghost-Test\Ghost-PruebasDeRegresion desde el directorio utilizado en el punto anterior
 - Ejecutar el comando npm install
