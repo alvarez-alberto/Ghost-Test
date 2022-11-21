@@ -9,27 +9,27 @@ Nota: Todas las rutas mencioonadas se indican a partir del directorio donde se d
 **1. Pruebas Kraken**
 
    **Ghost v3.42**
-  - Configuración: En el archivo Ghost-test-kraken\Ghost-3.42\properties.json se define las propiedades usuario, password y url del ambiente donde se ejecutaran los escenarios de prueba
-  - Escenarios de pruebas : Se encuentran en la ruta Ghost-Test\Ghost-test-kraken\Ghost-3.42\features. Nota: Para ejecutar el escenario solo debe existir un archivo .feature en ese directorio
-  - Screenshost: Se encuentran en la ruta Ghost-3.42\screenshot\ donde podra encontrar una carpeta por módulo que reune varios escenarios de prueba
+  - **Configuración**: En el archivo Ghost-test-kraken\Ghost-3.42\properties.json se define las propiedades usuario, password y url del ambiente donde se ejecutaran los escenarios de prueba
+  - **Escenarios de pruebas** : Se encuentran en la ruta Ghost-Test\Ghost-test-kraken\Ghost-3.42\features. Nota: Para ejecutar el escenario solo debe existir un archivo .feature en ese directorio
+  - **Screenshots**: Se encuentran en la ruta Ghost-3.42\screenshot\ donde podra encontrar una carpeta por módulo que reune varios escenarios de prueba
   
   **Ghost v5.18**
-  - Configuración: En el archivo Ghost-test-kraken\Ghost-5.18\properties.json se define las propiedades usuario, password y url del ambiente donde se ejecutaran los escenarios de prueba
-  - Escenarios de pruebas : Se encuentran en la ruta Ghost-Test\Ghost-test-kraken\Ghost-5.18\features 
-  - Screenshost: Se encuentran en la ruta Ghost-5.18\screenshot\ donde podra encontrar una carpeta por módulo que reune varios escenarios de prueba
+  - **Configuración**: En el archivo Ghost-test-kraken\Ghost-5.18\properties.json se define las propiedades usuario, password y url del ambiente donde se ejecutaran los escenarios de prueba
+  - **Escenarios de pruebas** : Se encuentran en la ruta Ghost-Test\Ghost-test-kraken\Ghost-5.18\features 
+  - **Screenshots**: Se encuentran en la ruta Ghost-5.18\screenshot\ donde podra encontrar una carpeta por módulo que reune varios escenarios de prueba
   
   
 **2. Pruebas Playwright**
   
   **Ghost v3.42**
-  - Configuración: En el archivo Ghost-test-Playwright\Ghost-3.42\config.cjs se define las propiedades usuario, password y url del ambiente donde se ejecutaran los escenarios de prueba
-  - Escenarios de pruebas : Se encuentran en la ruta Ghost-Test\Ghost-test-Playwright\Ghost-3.42\ 
-  - Screenshost: Se encuentran en la ruta Ghost-3.42\resultado\ donde podra encontrar una carpeta por módulo que reune varios escenarios de prueba
+  - **Configuración**: En el archivo Ghost-test-Playwright\Ghost-3.42\config.cjs se define las propiedades usuario, password y url del ambiente donde se ejecutaran los escenarios de prueba
+  - **Escenarios de pruebas** : Se encuentran en la ruta Ghost-Test\Ghost-test-Playwright\Ghost-3.42\ 
+  - **Screenshots**: Se encuentran en la ruta Ghost-3.42\resultado\ donde podra encontrar una carpeta por módulo que reune varios escenarios de prueba
   
 **Ghost v5.18**
-  - Configuración: En el archivo Ghost-test-Playwright\Ghost-5.18\config.cjs se define las propiedades usuario, password y url del ambiente donde se ejecutaran los escenarios de prueba
-  - Escenarios de pruebas : Se encuentran en la ruta Ghost-Test\Ghost-test-Playwright\Ghost-5.18\ 
-  - Screenshost: Se encuentran en la ruta Ghost-5.18\resultado\ donde podra encontrar una carpeta por módulo que reune varios escenarios de prueba
+  - **Configuración**: En el archivo Ghost-test-Playwright\Ghost-5.18\config.cjs se define las propiedades usuario, password y url del ambiente donde se ejecutaran los escenarios de prueba
+  - **Escenarios de pruebas** : Se encuentran en la ruta Ghost-Test\Ghost-test-Playwright\Ghost-5.18\ 
+  - **Screenshots**: Se encuentran en la ruta Ghost-5.18\resultado\ donde podra encontrar una carpeta por módulo que reune varios escenarios de prueba
   
 
 **3. Pruebas VRT**
