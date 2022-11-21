@@ -19,6 +19,7 @@
 |Crear miembro|Se debe poder crear un miembro a la página exitosamente|Arturo|
 |Editar post|Se debe poder editar un post existente en la pagina exitosamente|Conjunto|
 
+
 # Instrucciones para ejecutar los escenarios de prueba en Playwright:
 1. Clonar el repo https://github.com/neztoring/Ghost-test-Playwright.git
 2. Ejecutar en la raiz del repositorio local ejecutar el comando **npm install**
@@ -26,12 +27,15 @@
 4. En la consola se puede verificar los pasos que se ejecutan y en la carpeta **resultado** quedan las imagenes del escenario ejecutado
   
 
+  
   # Pros y Contras de las Herramientas:
 |Herramienta|Pros|Contras|
 |-------------|-----------|-|
-|**Playwright**|||
-||Incluye por defecto auto waits|-Para definir y escribir los escenarios de pruebas hay que tener conocimiento de los elementos html|
-||Permite aplicar el patron page object||
+|**Kraken**|- El uso del lenguaje natural para escribir los escenarios de prueba.|-Los elementos html del sistema bajo pruebas debe tener definido un id único para que la localización de lo elementos sea más exacta|
+||- La presentación por cada escenario de prueba de los resultados es muy ordenada y fácil de entender||
+||- Permite aplicar el patrón Given-When-Then||
+||||
+
   
 
 

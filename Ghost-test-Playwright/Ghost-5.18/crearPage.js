@@ -1,6 +1,6 @@
 
 const playwright = require('playwright');
-const { urlHost, userName, password } = require('./config.cjs');
+const { urlHost, userName, password } = require('./config.js');
 
 
 (async () => {
