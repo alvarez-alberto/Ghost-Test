@@ -60,8 +60,8 @@ async function executeTest(){
             modulo:{modulo},
             escenario:{nombreEscenario},
             nombreImagen:ls[i],
-            pathBefore:versionsCompare.before+'resultado\\'+modulo+'\\'+nombreEscenario+'\\'+ls[i],
-            pathAfter:versionsCompare.after+'resultado\\'+modulo+'\\'+nombreEscenario+'\\'+ls[i],
+            pathBefore:'..\\..\\..\\..\\'+versionsCompare.before+'resultado\\'+modulo+'\\'+nombreEscenario+'\\'+ls[i],
+            pathAfter:'..\\..\\..\\..\\'+versionsCompare.after+'resultado\\'+modulo+'\\'+nombreEscenario+'\\'+ls[i],
             pathCompare: '..\\compare-'+nombreEscenario+'-'+ls[i]
 
         }
